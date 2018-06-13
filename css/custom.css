@@ -1,0 +1,49 @@
+/*--- general styles for main content ---*/
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html, body, #mainMap {
+    height: 100%;
+}
+
+#mapMarkers {
+    max-width: 250px;
+}
+
+.csu-pueblo-img{
+    width: 250px
+}
+
+.buildings, .dorms, .fields, .hotels, .restaurants, .places{
+    padding: 15px;
+    width: 100%;
+    color: #fff;
+}
+
+.buildings{
+ background-color: #00396A;   
+}
+
+.dorms{
+ background-color: #AD132A;   
+}
+
+.fields{
+    background-color: green;   
+}
+
+.hotels{
+    background-color: purple;   
+}
+
+.restaurants{
+    background-color: #CE7019;   
+}
+
+.places{
+    background-color: #572642;
+}
