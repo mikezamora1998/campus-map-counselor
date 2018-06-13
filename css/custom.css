@@ -7,43 +7,44 @@ body {
 }
 
 html, body, #mainMap {
-    height: 100%;
+    height: 700px;
 }
 
-#mapMarkers {
-    max-width: 250px;
+.info, .international {
+    padding: 10px 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
 }
 
-.csu-pueblo-img{
-    width: 250px
+.info, .international h4, h3 {
+    color: #777;
 }
 
-.buildings, .dorms, .fields, .hotels, .restaurants, .places{
-    padding: 15px;
+.counselorImg {
     width: 100%;
-    color: #fff;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.buildings{
- background-color: #00396A;   
+.counselorText {
+    padding: 10px;
 }
 
-.dorms{
- background-color: #AD132A;   
+.counselorText p {
+    font-size: 15px;
 }
 
-.fields{
-    background-color: green;   
+@media (max-width: 991px) {
+    .returnBtn {
+        visibility: visible;
+    }
 }
 
-.hotels{
-    background-color: purple;   
-}
-
-.restaurants{
-    background-color: #CE7019;   
-}
-
-.places{
-    background-color: #572642;
+@media (min-width: 992px) {
+    .returnBtn {
+        visibility: hidden;
+    }
 }
