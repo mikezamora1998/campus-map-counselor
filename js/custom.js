@@ -13,7 +13,7 @@ $(document).ready(function() {
     // Map initialization
     var map = L.map('mainMap', {
         center: [39, -105],
-        zoom: 7.5,
+        zoom: 7,
         maxZoom: 9,
         fullscreenControl: true,
         layers: [light]
