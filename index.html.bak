@@ -18,18 +18,13 @@
 
       type="text/css">
     <link rel="stylesheet" href="css/custom.css" type="text/css">
-  	<style>
-.leaflet-container {
-    background: #ffffff !important;
-}
-</style>   
   </head>
-  <body>
-    <!-- div for map placement on page -->
+  <body> <!-- div for map placement on page -->
     <div id="mainMap" class="center-block col-xs-12 col-sm-12 col-md-12 col-lg-12"></div>
     <!-- div for counselor info -->
     <!--<div id="info" class="info col-xs-12 col-sm-12 col-md-6 col-lg-6">
-      <h4 class="text-center">Click on a State or Colorado County</h4>    </div> -->
+      <h4 class="text-center">Click on a State or Colorado County</h4>
+    </div> -->
     <!-- Javascript -->
     <script src="js/jquery-1.12.0.min.js"></script>
     <script src="js/bootstrap.min.js"></script>

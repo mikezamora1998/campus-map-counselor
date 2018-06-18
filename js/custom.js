@@ -12,9 +12,9 @@ $(document).ready(function() {
 
     // Map initialization
     var map = L.map('mainMap', {
-        center: [40, -125],
-        zoom: 4,
-        maxZoom: 7,
+        center: [39, -105],
+        zoom: 7.5,
+        maxZoom: 9,
         fullscreenControl: true,
         layers: [light]
     });
@@ -92,7 +92,7 @@ $(document).ready(function() {
 
         // Check if layer is a Colorado county: if it is, keep the zoom level and bounds on Colorado instead of zooming into the county
         if (layer.feature.id.indexOf("CO") >= 0) {
-            map.fitBounds([[41.02964, -109.06128], [36.99378, -102.04102]]);
+            //map.fitBounds([[41.02964, -109.06128], [36.99378, -102.04102]]);
         }
         else {
             map.fitBounds(e.target.getBounds());
