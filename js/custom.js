@@ -19,6 +19,15 @@ $(document).ready(function() {
         layers: [light]
     });
 
+    map.dragging.disable();
+    map.touchZoom.disable();
+	map.doubleClickZoom.disable();
+	map.scrollWheelZoom.disable();
+	map.boxZoom.disable();
+	map.keyboard.disable();
+	map.removeControl(map.zoomControl);
+	map.removeControl(map.fullscreenControl);
+
 
     // Declaration of global variables for functions below
     var geojson;
@@ -95,7 +104,7 @@ $(document).ready(function() {
             //map.fitBounds([[41.02964, -109.06128], [36.99378, -102.04102]]);
         }
         else {
-            map.fitBounds(e.target.getBounds());
+            //map.fitBounds(e.target.getBounds());
         }
 
         infoUpdate(layer.feature.properties);
