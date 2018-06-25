@@ -12,8 +12,8 @@ $(document).ready(function() {
 
     // Map initialization
     var map = L.map('mainMap', {
-        center: [38.05, -105],
-        zoom: 7,
+        center: [39, -105],
+        zoom: 6.5,
         maxZoom: 9,
         fullscreenControl: true,
         layers: [light]
@@ -42,7 +42,7 @@ $(document).ready(function() {
     // Color states/counties differently if needed (based on property called "section" in statesData)
     function getColor(sec) {
         return sec == 1 ? '#00396a' :
-        sec == 2  ? '#58595b' :
+        sec == 2  ? '#000000' :
         sec == 3  ? '#572642' :
         sec == 4  ? '#ce7019' :
         sec == 5  ? '#b30838' :
