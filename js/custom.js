@@ -76,15 +76,17 @@ $(document).ready(function() {
     function highlightFeature(e) {
         var layer = e.target;
 
-        layer.setStyle({
-            weight: 5,
-            color: '#666',
-            dashArray: '',
-            fillOpacity: 0.7
-        });
+        if(layer.feature.properties.section != 2){
+            layer.setStyle({
+                weight: 5,
+                color: '#666',
+                dashArray: '',
+                fillOpacity: 0.7
+            });
 
-        if (!L.Browser.ie && !L.Browser.opera) {
-            layer.bringToFront();
+            if (!L.Browser.ie && !L.Browser.opera) {
+                layer.bringToFront();
+            }
         }
     }
 
@@ -96,18 +98,16 @@ $(document).ready(function() {
 
 
     // Highlight and zoom to state
-    function zoomToFeature(e) {
+    function linkToFeature(e) {
         var layer = e.target;
+        if(layer.feature.properties.section != 2){
+            //opens a link in the same window
+            //window.location = "https://www.csupueblo.edu/profile/" + layer.feature.properties.url;
 
-        // Check if layer is a Colorado county: if it is, keep the zoom level and bounds on Colorado instead of zooming into the county
-        if (layer.feature.id.indexOf("CO") >= 0) {
-            //map.fitBounds([[41.02964, -109.06128], [36.99378, -102.04102]]);
+            //opens a window in a new tab
+            window.open("https://www.csupueblo.edu/profile/" + layer.feature.properties.url);
         }
-        else {
-            //map.fitBounds(e.target.getBounds());
-        }
-
-        infoUpdate(layer.feature.properties);
+        //infoUpdate(layer.feature.properties);
     }
 
 
@@ -119,7 +119,7 @@ $(document).ready(function() {
             // function called when pointer leaves a state(layer)
             mouseout: resetHighlight,
             // function called when pointer clicks a state(layer)
-            click: zoomToFeature
+            click: linkToFeature
         });
     }
 

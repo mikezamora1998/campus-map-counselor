@@ -3,6 +3,8 @@
 var statesData = {
     "type": "FeatureCollection",
     "features": [
+        
+        //These states are just for decoration
         {
             "type": "Feature",
             "id": "04",
@@ -517,17 +519,17 @@ var statesData = {
                     ]
                 ]
             }
-        },{
+        },
+
+        //Start of the colorado counties
+        {
         "type": "Feature",
         "id": "CO1",
         "properties": {
             "name": "Hinsdale",
             "counselor": "Malorie Weiss", 
-            "phone" : "719-549-2637",
-            "email": "malorie.weiss@csupueblo.edu",
-            "section": 1,
-            "imageUrl": "img/Malorie.jpg",
-            "quote": 'My favorite thing about CSU-Pueblo is its size. The classes are just the right size to where you know your professors and classmates. The campus itself is small enough that you know a lot of people, but is also large enough that you are always meeting new people.'
+            "url": "malorie-weiss/index.html",
+            "section": 1
         },
         "geometry": {
             "type": "Polygon",
@@ -797,12 +799,9 @@ var statesData = {
         "id": "CO2",
         "properties": {
             "name": "Kiowa",
-            "counselor": "Taylor Jacobsen",
-            "phone": "719-549-2432",
-            "email": "taylor.jacobsen@csupueblo.edu",
-            "section": 4,
-            "imageUrl": 'img/Taylor.jpg',
-            "quote": 'My favorite thing about CSU-Pueblo is our small class sizes and the professors and staff who truly care about the students.  Another thing that I love about CSU-Pueblo is how much school spirit we have not only on campus, but in the community as well.'
+            "counselor": "Anthony Jimenez",
+            "url": "anthony-jimenez/index.html",
+            "section": 4
         },
         "geometry": {
             "type": "Polygon",
@@ -903,13 +902,10 @@ var statesData = {
         "id": "CO3",
         "properties": {
             "name": "Kit Carson",
-            "counselor": "Taylor Jacobsen",
-            "phone": "719-549-2432",
-            "email": "taylor.jacobsen@csupueblo.edu",
-            "section": 4,
-            "imageUrl": 'img/Taylor.jpg',
-            "quote": 'My favorite thing about CSU-Pueblo is our small class sizes and the professors and staff who truly care about the students.  Another thing that I love about CSU-Pueblo is how much school spirit we have not only on campus, but in the community as well.'
-        },
+            "counselor": "Anthony Jimenez",
+            "url": "anthony-jimenez/index.html",
+            "section": 4
+          },
         "geometry": {
             "type": "Polygon",
             "coordinates": [
@@ -997,12 +993,9 @@ var statesData = {
         "properties": {
             "name": "Las Animas",
             "counselor": "Malorie Weiss",
-            "phone": "719-549-2637",
-            "email": "malorie.weiss@csupueblo.edu",
-            "section": 1,
-            "imageUrl": "img/Malorie.jpg",
-            "quote": 'My favorite thing about CSU-Pueblo is its size. The classes are just the right size to where you know your professors and classmates. The campus itself is small enough that you know a lot of people, but is also large enough that you are always meeting new people.'
-        },
+            "url": "malorie-weiss/index.html",
+            "section": 1
+         },
         "geometry": {
             "type": "Polygon",
             "coordinates": [
@@ -1271,12 +1264,9 @@ var statesData = {
         "id": "CO5",
         "properties": {
             "name": "Lincoln",
-            "counselor": "Taylor Jacobsen",
-            "phone": "719-549-2432",
-            "email": "taylor.jacobsen@csupueblo.edu",
-            "section": 4,
-            "imageUrl": 'img/Taylor.jpg',
-            "quote": 'My favorite thing about CSU-Pueblo is our small class sizes and the professors and staff who truly care about the students.  Another thing that I love about CSU-Pueblo is how much school spirit we have not only on campus, but in the community as well.'
+            "counselor": "Anthony Jimenez",
+            "url": "anthony-jimenez/index.html",
+            "section": 4
         },
         "geometry": {
             "type": "Polygon",
@@ -1395,11 +1385,9 @@ var statesData = {
         "properties": {
             "name": "Logan",
             "counselor": "Michael Hellman",
-            "phone" : "719-549-2093",
-            "email": "michael.hellman@csupueblo.edu",
-            "section": 5,
-            "imageUrl": 'img/Mike.jpg',
-            "quote": 'My favorite thing about CSU-Pueblo is the new Occhiato Student Center, which reflects CSU-Pueblo\'s continued commitment to improving the quality of education for its students.  I like to see concerted efforts by our administration to help future students, as it makes me feel supported when I go out on the road to speak with them.'        },
+            "url": "michael-hellman/index.html",
+             "section": 5
+          },
         "geometry": {
             "type": "Polygon",
             "coordinates": [
@@ -1513,11 +1501,8 @@ var statesData = {
         "properties": {
             "name": "Mineral",
             "counselor": "Malorie Weiss", 
-            "phone" : "719-549-2637",
-            "email": "malorie.weiss@csupueblo.edu",
-            "section": 1,
-            "imageUrl": "img/Malorie.jpg",
-            "quote": 'My favorite thing about CSU-Pueblo is its size. The classes are just the right size to where you know your professors and classmates. The campus itself is small enough that you know a lot of people, but is also large enough that you are always meeting new people.'
+            "url": "malorie-weiss/index.html",
+            "section": 1
         },
         "geometry": {
             "type": "Polygon",
@@ -1677,11 +1662,8 @@ var statesData = {
         "properties": {
             "name": "Montrose",
             "counselor": "Ryan Kendall",
-            "phone": "719-549-2644",
-            "email": "ryan.kendall@csupueblo.edu",
-            "section": 3,
-            "imageUrl": "img/Ryan.jpg",
-            "quote": 'My favorite thing about CSU-Pueblo are the faculty and staff. When I was a student here, everyone always had an open door policy to help and assist students. Now as an employee at the University, I get the pleasure to contribute and give back to the students and staff. That open door policy has never changed. Team works makes the dream work!'
+            "url": "ryan-kendall/index.html",
+            "section": 3
         },
         "geometry": {
             "type": "Polygon",
@@ -1788,11 +1770,9 @@ var statesData = {
         "properties": {
             "name": "Morgan",
             "counselor": "Michael Hellman",
-            "phone" : "719-549-2093",
-            "email": "michael.hellman@csupueblo.edu",
-            "section": 5,
-            "imageUrl": 'img/Mike.jpg',
-            "quote": 'My favorite thing about CSU-Pueblo is the new Occhiato Student Center, which reflects CSU-Pueblo\'s continued commitment to improving the quality of education for its students.  I like to see concerted efforts by our administration to help future students, as it makes me feel supported when I go out on the road to speak with them.'        },
+            "url": "michael-hellman/index.html",
+            "section": 5
+            },
         "geometry": {
             "type": "Polygon",
             "coordinates": [
@@ -1885,12 +1865,9 @@ var statesData = {
         "properties": {
             "name": "Otero",
             "counselor": "Malorie Weiss",
-            "phone": "719-549-2637",
-            "email": "malorie.weiss@csupueblo.edu",
-            "section": 1,
-            "imageUrl": "img/Malorie.jpg",
-            "quote": 'My favorite thing about CSU-Pueblo is its size. The classes are just the right size to where you know your professors and classmates. The campus itself is small enough that you know a lot of people, but is also large enough that you are always meeting new people.'
-        },
+            "url": "malorie-weiss/index.html",
+            "section": 1
+         },
         "geometry": {
             "type": "Polygon",
             "coordinates": [
@@ -2049,12 +2026,10 @@ var statesData = {
         "properties": {
             "name": "Phillips",
             "counselor": "Michael Hellman",
-            "phone" : "719-549-2093",
-            "email": "michael.hellman@csupueblo.edu",
-            "section": 5,
-            "imageUrl": 'img/Mike.jpg',
-            "quote": 'My favorite thing about CSU-Pueblo is the new Occhiato Student Center, which reflects CSU-Pueblo\'s continued commitment to improving the quality of education for its students.  I like to see concerted efforts by our administration to help future students, as it makes me feel supported when I go out on the road to speak with them.'        },
-        "geometry": {
+             "url": "michael-hellman/index.html",
+            "section": 5
+         },
+         "geometry": {
             "type": "Polygon",
             "coordinates": [
                 [
@@ -2109,11 +2084,11 @@ var statesData = {
         "properties": {
             "name": "Prowers",
             "counselor": "Malorie Weiss",
-            "phone": "719-549-2637",
-            "email": "malorie.weiss@csupueblo.edu",
-            "section": 1,
-            "imageUrl": "img/Malorie.jpg",
-            "quote": 'My favorite thing about CSU-Pueblo is its size. The classes are just the right size to where you know your professors and classmates. The campus itself is small enough that you know a lot of people, but is also large enough that you are always meeting new people.'
+            
+            "url": "malorie-weiss/index.html",
+            "section": 1
+            
+            
         },
         "geometry": {
             "type": "Polygon",
@@ -2197,11 +2172,11 @@ var statesData = {
         "properties": {
             "name": "Pueblo",
             "counselor": "Ryan Kendall", 
-            "phone" : "719-549-2644",
-            "email": "ryan.kendall@csupueblo.edu",
-            "section": 3,
-            "imageUrl": "img/Ryan.jpg",
-            "quote": 'My favorite thing about CSU-Pueblo are the faculty and staff. When I was a student here, everyone always had an open door policy to help and assist students. Now as an employee at the University, I get the pleasure to contribute and give back to the students and staff. That open door policy has never changed. Team works makes the dream work!'
+            
+            "url": "ryan-kendall/index.html",
+            "section": 3
+            
+            
         },
         "geometry": {
             "type": "Polygon",
@@ -2308,11 +2283,11 @@ var statesData = {
         "properties": {
             "name": "Rio Blanco",
             "counselor": "Michael Hellman",
-            "phone": "719-549-2093",
-            "email": "michael.hellman@csupueblo.edu",
-            "section": 5,
-            "imageUrl": 'img/Mike.jpg',
-            "quote": 'My favorite thing about CSU-Pueblo is the new Occhiato Student Center, which reflects CSU-Pueblo\'s continued commitment to improving the quality of education for its students.  I like to see concerted efforts by our administration to help future students, as it makes me feel supported when I go out on the road to speak with them.'        },
+            
+             "url": "michael-hellman/index.html",
+            "section": 5
+           
+                    },
         "geometry": {
             "type": "Polygon",
             "coordinates": [
@@ -2410,12 +2385,12 @@ var statesData = {
         "id": "CO15",
         "properties": {
             "name": "Rio Grande",
-            "counselor": "Taylor Jacobsen", 
-            "phone" : "719-549-2432",
-            "email": "taylor.jacobsen@csupueblo.edu",
-            "section": 4,
-            "imageUrl": "img/Taylor.jpg",
-            "quote": 'My favorite thing about CSU-Pueblo is our small class sizes and the professors and staff who truly care about the students.  Another thing that I love about CSU-Pueblo is how much school spirit we have not only on campus, but in the community as well.'
+            "counselor": "Anthony Jimenez", 
+            
+            "url": "anthony-jimenez/index.html",
+            "section": 4
+            
+            
         },
         "geometry": {
             "type": "Polygon",
@@ -2491,11 +2466,11 @@ var statesData = {
         "properties": {
             "name": "Adams",
             "counselor": "Michael Hellman",
-            "phone" : "719-549-2093",
-            "email": "michael.hellman@csupueblo.edu",
-            "section": 5,
-            "imageUrl": 'img/Mike.jpg',
-            "quote": 'My favorite thing about CSU-Pueblo is the new Occhiato Student Center, which reflects CSU-Pueblo\'s continued commitment to improving the quality of education for its students.  I like to see concerted efforts by our administration to help future students, as it makes me feel supported when I go out on the road to speak with them.'        },
+            
+             "url": "michael-hellman/index.html",
+            "section": 5
+           
+                    },
         "geometry": {
             "type": "Polygon",
             "coordinates": [
@@ -2913,12 +2888,12 @@ var statesData = {
         "id": "CO17",
         "properties": {
             "name": "Alamosa",
-            "counselor": "Taylor Jacobsen", 
-            "phone" : "719-549-2432",
-            "email": "taylor.jacobsen@csupueblo.edu",
-            "section": 4,
-            "imageUrl": "img/Taylor.jpg",
-            "quote": 'My favorite thing about CSU-Pueblo is our small class sizes and the professors and staff who truly care about the students.  Another thing that I love about CSU-Pueblo is how much school spirit we have not only on campus, but in the community as well.'
+            "counselor": "Anthony Jimenez", 
+            
+            "url": "anthony-jimenez/index.html",
+            "section": 4
+            
+            
         },
         "geometry": {
             "type": "Polygon",
@@ -3052,11 +3027,11 @@ var statesData = {
         "properties": {
             "name": "Arapahoe",
             "counselor": "Michael Hellman",
-            "phone" : "719-549-2093",
-            "email": "michael.hellman@csupueblo.edu",
-            "section": 5,
-            "imageUrl": 'img/Mike.jpg',
-            "quote": 'My favorite thing about CSU-Pueblo is the new Occhiato Student Center, which reflects CSU-Pueblo\'s continued commitment to improving the quality of education for its students.  I like to see concerted efforts by our administration to help future students, as it makes me feel supported when I go out on the road to speak with them.'        },
+            
+             "url": "michael-hellman/index.html",
+            "section": 5
+           
+                    },
         "geometry": {
             "type": "MultiPolygon",
             "coordinates": [
@@ -3610,11 +3585,11 @@ var statesData = {
         "properties": {
             "name": "Archuleta",
             "counselor": "Malorie Weiss", 
-            "phone" : "719-549-2637",
-            "email": "malorie.weiss@csupueblo.edu",
-            "section": 1,
-            "imageUrl": "img/Malorie.jpg",
-            "quote": 'My favorite thing about CSU-Pueblo is its size. The classes are just the right size to where you know your professors and classmates. The campus itself is small enough that you know a lot of people, but is also large enough that you are always meeting new people.'
+            
+            "url": "malorie-weiss/index.html",
+            "section": 1
+            
+            
         },
         "geometry": {
             "type": "Polygon",
@@ -3686,11 +3661,11 @@ var statesData = {
         "properties": {
             "name": "Baca",
             "counselor": "Malorie Weiss",
-            "phone": "719-549-2637",
-            "email": "malorie.weiss@csupueblo.edu",
-            "section": 1,
-            "imageUrl": "img/Malorie.jpg",
-            "quote": 'My favorite thing about CSU-Pueblo is its size. The classes are just the right size to where you know your professors and classmates. The campus itself is small enough that you know a lot of people, but is also large enough that you are always meeting new people.'
+            
+            "url": "malorie-weiss/index.html",
+            "section": 1
+            
+            
         },
         "geometry": {
             "type": "Polygon",
@@ -3791,11 +3766,11 @@ var statesData = {
         "properties": {
             "name": "Bent",
             "counselor": "Malorie Weiss",
-            "phone": "719-549-2637",
-            "email": "malorie.weiss@csupueblo.edu",
-            "section": 1,
-            "imageUrl": "img/Malorie.jpg",
-            "quote": 'My favorite thing about CSU-Pueblo is its size. The classes are just the right size to where you know your professors and classmates. The campus itself is small enough that you know a lot of people, but is also large enough that you are always meeting new people.'
+            
+            "url": "malorie-weiss/index.html",
+            "section": 1
+            
+            
         },
         "geometry": {
             "type": "Polygon",
@@ -3876,11 +3851,11 @@ var statesData = {
         "properties": {
             "name": "Chaffee",
             "counselor": "Ryan Kendall", 
-            "phone" : "719-549-2644",
-            "email": "ryan.kendall@csupueblo.edu",
-            "section": 3,
-            "imageUrl": "img/Ryan.jpg",
-            "quote": 'My favorite thing about CSU-Pueblo are the faculty and staff. When I was a student here, everyone always had an open door policy to help and assist students. Now as an employee at the University, I get the pleasure to contribute and give back to the students and staff. That open door policy has never changed. Team works makes the dream work!'
+            
+            "url": "ryan-kendall/index.html",
+            "section": 3
+            
+            
         },
         "geometry": {
             "type": "Polygon",
@@ -4580,11 +4555,11 @@ var statesData = {
         "properties": {
             "name": "Clear Creek",
             "counselor": "Michael Hellman",
-            "phone" : "719-549-2093",
-            "email": "michael.hellman@csupueblo.edu",
-            "section": 5,
-            "imageUrl": 'img/Mike.jpg',
-            "quote": 'My favorite thing about CSU-Pueblo is the new Occhiato Student Center, which reflects CSU-Pueblo\'s continued commitment to improving the quality of education for its students.  I like to see concerted efforts by our administration to help future students, as it makes me feel supported when I go out on the road to speak with them.'        },
+            
+             "url": "michael-hellman/index.html",
+            "section": 5
+           
+                    },
         "geometry": {
             "type": "Polygon",
             "coordinates": [
@@ -4909,11 +4884,11 @@ var statesData = {
         "properties": {
             "name": "Costilla",
             "counselor": "Malorie Weiss", 
-            "phone" : "719-549-2637",
-            "email": "malorie.weiss@csupueblo.edu",
-            "section": 1,
-            "imageUrl": "img/Malorie.jpg",
-            "quote": 'My favorite thing about CSU-Pueblo is its size. The classes are just the right size to where you know your professors and classmates. The campus itself is small enough that you know a lot of people, but is also large enough that you are always meeting new people.'
+            
+            "url": "malorie-weiss/index.html",
+            "section": 1
+        
+            
         },
         "geometry": {
             "type": "Polygon",
@@ -5365,11 +5340,11 @@ var statesData = {
         "properties": {
             "name": "Custer",
             "counselor": "Ryan Kendall", 
-            "phone" : "719-549-2644",
-            "email": "ryan.kendall@csupueblo.edu",
-            "section": 3,
-            "imageUrl": "img/Ryan.jpg",
-            "quote": 'My favorite thing about CSU-Pueblo are the faculty and staff. When I was a student here, everyone always had an open door policy to help and assist students. Now as an employee at the University, I get the pleasure to contribute and give back to the students and staff. That open door policy has never changed. Team works makes the dream work!'
+            
+            "url": "ryan-kendall/index.html",
+            "section": 3
+            
+            
         },
         "geometry": {
             "type": "Polygon",
@@ -5758,11 +5733,11 @@ var statesData = {
         "properties": {
             "name": "Delta",
             "counselor": "Ryan Kendall",
-            "phone": "719-549-2644",
-            "email": "ryan.kendall@csupueblo.edu",
-            "section": 3,
-            "imageUrl": "img/Ryan.jpg",
-            "quote": 'My favorite thing about CSU-Pueblo are the faculty and staff. When I was a student here, everyone always had an open door policy to help and assist students. Now as an employee at the University, I get the pleasure to contribute and give back to the students and staff. That open door policy has never changed. Team works makes the dream work!'
+            
+            "url": "ryan-kendall/index.html",
+            "section": 3
+            
+            
         },
         "geometry": {
             "type": "Polygon",
@@ -6071,11 +6046,11 @@ var statesData = {
         "properties": {
             "name": "Denver",
             "counselor": "Michael Hellman",
-            "phone" : "719-549-2093",
-            "email": "michael.hellman@csupueblo.edu",
-            "section": 5,
-            "imageUrl": 'img/Mike.jpg',
-            "quote": 'My favorite thing about CSU-Pueblo is the new Occhiato Student Center, which reflects CSU-Pueblo\'s continued commitment to improving the quality of education for its students.  I like to see concerted efforts by our administration to help future students, as it makes me feel supported when I go out on the road to speak with them.'        },
+            
+             "url": "michael-hellman/index.html",
+            "section": 5
+           
+                    },
         "geometry": {
             "type": "MultiPolygon",
             "coordinates": [
@@ -6747,12 +6722,12 @@ var statesData = {
         "id": "CO28",
         "properties": {
             "name": "Douglas",
-            "counselor": "Taylor Jacobsen",
-            "phone": "719-549-2432",
-            "email": "taylor.jacobsen@csupueblo.edu",
-            "section": 4,
-            "imageUrl": 'img/Taylor.jpg',
-            "quote": 'My favorite thing about CSU-Pueblo is our small class sizes and the professors and staff who truly care about the students.  Another thing that I love about CSU-Pueblo is how much school spirit we have not only on campus, but in the community as well.'
+            "counselor": "Anthony Jimenez",
+            
+            "url": "anthony-jimenez/index.html",
+            "section": 4
+            
+            
         },
         "geometry": {
             "type": "Polygon",
@@ -7161,11 +7136,11 @@ var statesData = {
         "properties": {
             "name": "Eagle",
             "counselor": "Michael Hellman",
-            "phone" : "719-549-2093",
-            "email": "michael.hellman@csupueblo.edu",
-            "section": 5,
-            "imageUrl": 'img/Mike.jpg',
-            "quote": 'My favorite thing about CSU-Pueblo is the new Occhiato Student Center, which reflects CSU-Pueblo\'s continued commitment to improving the quality of education for its students.  I like to see concerted efforts by our administration to help future students, as it makes me feel supported when I go out on the road to speak with them.'        },
+            
+             "url": "michael-hellman/index.html",
+            "section": 5
+           
+                    },
         "geometry": {
             "type": "Polygon",
             "coordinates": [
@@ -7559,11 +7534,11 @@ var statesData = {
         "properties": {
             "name": "Grand",
             "counselor": "Michael Hellman",
-            "phone" : "719-549-2093",
-            "email": "michael.hellman@csupueblo.edu",
-            "section": 5,
-            "imageUrl": 'img/Mike.jpg',
-            "quote": 'My favorite thing about CSU-Pueblo is the new Occhiato Student Center, which reflects CSU-Pueblo\'s continued commitment to improving the quality of education for its students.  I like to see concerted efforts by our administration to help future students, as it makes me feel supported when I go out on the road to speak with them.'        },
+            
+             "url": "michael-hellman/index.html",
+            "section": 5
+           
+                    },
         "geometry": {
             "type": "Polygon",
             "coordinates": [
@@ -8470,11 +8445,11 @@ var statesData = {
         "properties": {
             "name": "Gunnison",
             "counselor": "Ryan Kendall",
-            "phone": "719-549-2644",
-            "email": "ryan.kendall@csupueblo.edu",
-            "section": 3,
-            "imageUrl": "img/Ryan.jpg",
-            "quote": 'My favorite thing about CSU-Pueblo are the faculty and staff. When I was a student here, everyone always had an open door policy to help and assist students. Now as an employee at the University, I get the pleasure to contribute and give back to the students and staff. That open door policy has never changed. Team works makes the dream work!'
+            
+            "url": "ryan-kendall/index.html",
+            "section": 3
+            
+            
         },
         "geometry": {
             "type": "Polygon",
@@ -9203,11 +9178,11 @@ var statesData = {
         "properties": {
             "name": "Huerfano",
             "counselor": "Malorie Weiss", 
-            "phone" : "719-549-2637",
-            "email": "malorie.weiss@csupueblo.edu",
-            "section": 1,
-            "imageUrl": "img/Malorie.jpg",
-            "quote": 'My favorite thing about CSU-Pueblo is its size. The classes are just the right size to where you know your professors and classmates. The campus itself is small enough that you know a lot of people, but is also large enough that you are always meeting new people.'
+            
+            "url": "malorie-weiss/index.html",
+            "section": 1
+            
+            
         },
         "geometry": {
             "type": "Polygon",
@@ -9980,11 +9955,11 @@ var statesData = {
         "properties": {
             "name": "Jackson",
             "counselor": "Michael Hellman",
-            "phone" : "719-549-2093",
-            "email": "michael.hellman@csupueblo.edu",
-            "section": 5,
-            "imageUrl": 'img/Mike.jpg',
-            "quote": 'My favorite thing about CSU-Pueblo is the new Occhiato Student Center, which reflects CSU-Pueblo\'s continued commitment to improving the quality of education for its students.  I like to see concerted efforts by our administration to help future students, as it makes me feel supported when I go out on the road to speak with them.'        },
+            
+             "url": "michael-hellman/index.html",
+            "section": 5
+           
+                    },
         "geometry": {
             "type": "Polygon",
             "coordinates": [
@@ -10865,11 +10840,11 @@ var statesData = {
         "properties": {
             "name": "Jefferson",
             "counselor": "Malorie Weiss",
-            "phone": "719-549-2637",
-            "email": "malorie.weiss@csupueblo.edu",
-            "section": 1,
-            "imageUrl": 'img/Malorie.jpg',
-            "quote": 'My favorite thing about CSU-Pueblo is its size. The classes are just the right size to where you know your professors and classmates. The campus itself is small enough that you know a lot of people, but is also large enough that you are always meeting new people.'
+            
+            "url": "malorie-weiss/index.html",
+            "section": 1
+            
+            
         },
         "geometry": {
             "type": "MultiPolygon",
@@ -11569,12 +11544,12 @@ var statesData = {
         "id": "CO35",
         "properties": {
             "name": "Lake",
-            "counselor": "Taylor Jacobsen",
-            "phone": "719-549-2432",
-            "email": "taylor.jacobsen@csupueblo.edu",
-            "section": 4,
-            "imageUrl": 'img/Taylor.jpg',
-            "quote": 'My favorite thing about CSU-Pueblo is our small class sizes and the professors and staff who truly care about the students.  Another thing that I love about CSU-Pueblo is how much school spirit we have not only on campus, but in the community as well.'
+            "counselor": "Anthony Jimenez",
+            
+            "url": "anthony-jimenez/index.html",
+            "section": 4
+            
+            
         },
         "geometry": {
             "type": "Polygon",
@@ -11923,11 +11898,11 @@ var statesData = {
         "properties": {
             "name": "La Plata",
             "counselor": "Ryan Kendall",
-            "phone": "719-549-2644",
-            "email": "ryan.kendall@csupueblo.edu",
-            "section": 3,
-            "imageUrl": "img/Ryan.jpg",
-            "quote": 'My favorite thing about CSU-Pueblo are the faculty and staff. When I was a student here, everyone always had an open door policy to help and assist students. Now as an employee at the University, I get the pleasure to contribute and give back to the students and staff. That open door policy has never changed. Team works makes the dream work!'
+            
+            "url": "ryan-kendall/index.html",
+            "section": 3
+            
+            
         },
         "geometry": {
             "type": "Polygon",
@@ -12277,11 +12252,11 @@ var statesData = {
         "properties": {
             "name": "Larimer",
             "counselor": "Malorie Weiss",
-            "phone" : "719-549-2637",
-            "email": "malorie.weiss@csupueblo.edu",
-            "section": 1,
-            "imageUrl": 'img/Malorie.jpg',
-            "quote": 'My favorite thing about CSU-Pueblo is its size. The classes are just the right size to where you know your professors and classmates. The campus itself is small enough that you know a lot of people, but is also large enough that you are always meeting new people.'
+            
+            "url": "malorie-weiss/index.html",
+            "section": 1
+            
+            
         },
         "geometry": {
             "type": "Polygon",
@@ -12726,11 +12701,11 @@ var statesData = {
         "properties": {
             "name": "Mesa",
             "counselor": "Ryan Kendall",
-            "phone": "719-549-2644",
-            "email": "ryan.kendall@csupueblo.edu",
-            "section": 3,
-            "imageUrl": "img/Ryan.jpg",
-            "quote": 'My favorite thing about CSU-Pueblo are the faculty and staff. When I was a student here, everyone always had an open door policy to help and assist students. Now as an employee at the University, I get the pleasure to contribute and give back to the students and staff. That open door policy has never changed. Team works makes the dream work!'
+            
+            "url": "ryan-kendall/index.html",
+            "section": 3
+            
+            
         },
         "geometry": {
             "type": "Polygon",
@@ -13195,11 +13170,11 @@ var statesData = {
         "properties": {
             "name": "Moffat",
             "counselor": "Michael Hellman",
-            "phone" : "719-549-2093",
-            "email": "michael.hellman@csupueblo.edu",
-            "section": 5,
-            "imageUrl": 'img/Mike.jpg',
-            "quote": 'My favorite thing about CSU-Pueblo is the new Occhiato Student Center, which reflects CSU-Pueblo\'s continued commitment to improving the quality of education for its students.  I like to see concerted efforts by our administration to help future students, as it makes me feel supported when I go out on the road to speak with them.'        },
+            
+             "url": "michael-hellman/index.html",
+            "section": 5
+           
+                    },
         "geometry": {
             "type": "Polygon",
             "coordinates": [
@@ -13279,11 +13254,11 @@ var statesData = {
         "properties": {
             "name": "Montezuma",
             "counselor": "Ryan Kendall",
-            "phone": "719-549-2644",
-            "email": "ryan.kendall@csupueblo.edu",
-            "section": 3,
-            "imageUrl": "img/Ryan.jpg",
-            "quote": 'My favorite thing about CSU-Pueblo are the faculty and staff. When I was a student here, everyone always had an open door policy to help and assist students. Now as an employee at the University, I get the pleasure to contribute and give back to the students and staff. That open door policy has never changed. Team works makes the dream work!'
+            
+            "url": "ryan-kendall/index.html",
+            "section": 3
+            
+            
         },
         "geometry": {
             "type": "Polygon",
@@ -13632,11 +13607,11 @@ var statesData = {
         "properties": {
             "name": "Ouray",
             "counselor": "Malorie Weiss",
-            "phone": "719-549-2637",
-            "email": "malorie.weiss@csupueblo.edu",
-            "section": 1,
-            "imageUrl": "img/Malorie.jpg",
-            "quote": 'My favorite thing about CSU-Pueblo is its size. The classes are just the right size to where you know your professors and classmates. The campus itself is small enough that you know a lot of people, but is also large enough that you are always meeting new people.'
+            
+            "url": "malorie-weiss/index.html",
+            "section": 1
+            
+            
         },
         "geometry": {
             "type": "Polygon",
@@ -13996,12 +13971,12 @@ var statesData = {
         "id": "CO42",
         "properties": {
             "name": "Park",
-            "counselor": "Taylor Jacobsen",
-            "phone": "719-549-2432",
-            "email": "taylor.jacobsen@csupueblo.edu",
-            "section": 4,
-            "imageUrl": 'img/Taylor.jpg',
-            "quote": 'My favorite thing about CSU-Pueblo is our small class sizes and the professors and staff who truly care about the students.  Another thing that I love about CSU-Pueblo is how much school spirit we have not only on campus, but in the community as well.'
+            "counselor": "Anthony Jimenez",
+            
+            "url": "anthony-jimenez/index.html",
+            "section": 4
+            
+            
         },
         "geometry": {
             "type": "Polygon",
@@ -14560,11 +14535,11 @@ var statesData = {
         "properties": {
             "name": "Pitkin",
             "counselor": "Michael Hellman",
-            "phone" : "719-549-2093",
-            "email": "michael.hellman@csupueblo.edu",
-            "section": 5,
-            "imageUrl": 'img/Mike.jpg',
-            "quote": 'My favorite thing about CSU-Pueblo is the new Occhiato Student Center, which reflects CSU-Pueblo\'s continued commitment to improving the quality of education for its students.  I like to see concerted efforts by our administration to help future students, as it makes me feel supported when I go out on the road to speak with them.'        },
+            
+             "url": "michael-hellman/index.html",
+            "section": 5
+           
+                    },
         "geometry": {
             "type": "Polygon",
             "coordinates": [
@@ -15098,11 +15073,11 @@ var statesData = {
         "properties": {
             "name": "Routt",
             "counselor": "Michael Hellman",
-            "phone" : "719-549-2093",
-            "email": "michael.hellman@csupueblo.edu",
-            "section": 5,
-            "imageUrl": 'img/Mike.jpg',
-            "quote": 'My favorite thing about CSU-Pueblo is the new Occhiato Student Center, which reflects CSU-Pueblo\'s continued commitment to improving the quality of education for its students.  I like to see concerted efforts by our administration to help future students, as it makes me feel supported when I go out on the road to speak with them.'        },
+            
+             "url": "michael-hellman/index.html",
+            "section": 5
+           
+                    },
         "geometry": {
             "type": "Polygon",
             "coordinates": [
@@ -15483,11 +15458,11 @@ var statesData = {
         "properties": {
             "name": "Saguache",
             "counselor": "Malorie Weiss", 
-            "phone" : "719-549-2637",
-            "email": "malorie.weiss@csupueblo.edu",
-            "section": 1,
-            "imageUrl": "img/Malorie.jpg",
-            "quote": 'My favorite thing about CSU-Pueblo is its size. The classes are just the right size to where you know your professors and classmates. The campus itself is small enough that you know a lot of people, but is also large enough that you are always meeting new people.'
+            
+            "url": "malorie-weiss/index.html",
+            "section": 1
+            
+            
         },
         "geometry": {
             "type": "Polygon",
@@ -15948,11 +15923,11 @@ var statesData = {
         "properties": {
             "name": "San Juan",
             "counselor": "Malorie Weiss",
-            "phone": "719-549-2637",
-            "email": "malorie.weiss@csupueblo.edu",
-            "section": 1,
-            "imageUrl": "img/Malorie.jpg",
-            "quote": 'My favorite thing about CSU-Pueblo is its size. The classes are just the right size to where you know your professors and classmates. The campus itself is small enough that you know a lot of people, but is also large enough that you are always meeting new people.'
+            
+            "url": "malorie-weiss/index.html",
+            "section": 1
+            
+            
         },
         "geometry": {
             "type": "Polygon",
@@ -16258,11 +16233,11 @@ var statesData = {
         "properties": {
             "name": "San Miguel",
             "counselor": "Ryan Kendall",
-            "phone": "719-549-2644",
-            "email": "ryan.kendall@csupueblo.edu",
-            "section": 3,
-            "imageUrl": "img/Ryan.jpg",
-            "quote": 'My favorite thing about CSU-Pueblo are the faculty and staff. When I was a student here, everyone always had an open door policy to help and assist students. Now as an employee at the University, I get the pleasure to contribute and give back to the students and staff. That open door policy has never changed. Team works makes the dream work!'
+            
+            "url": "ryan-kendall/index.html",
+            "section": 3
+            
+            
         },
         "geometry": {
             "type": "Polygon",
@@ -16624,11 +16599,11 @@ var statesData = {
         "properties": {
             "name": "Summit",
             "counselor": "Michael Hellman",
-            "phone" : "719-549-2093",
-            "email": "michael.hellman@csupueblo.edu",
-            "section": 5,
-            "imageUrl": 'img/Mike.jpg',
-            "quote": 'My favorite thing about CSU-Pueblo is the new Occhiato Student Center, which reflects CSU-Pueblo\'s continued commitment to improving the quality of education for its students.  I like to see concerted efforts by our administration to help future students, as it makes me feel supported when I go out on the road to speak with them.'        },
+            
+             "url": "michael-hellman/index.html",
+            "section": 5
+           
+                    },
         "geometry": {
             "type": "Polygon",
             "coordinates": [
@@ -17247,11 +17222,11 @@ var statesData = {
         "properties": {
             "name": "Broomfield",
             "counselor": "Malorie Weiss",
-            "phone" : "719-549-2637",
-            "email": "malorie.weiss@csupueblo.edu",
-            "section": 1,
-            "imageUrl": 'img/Malorie.jpg',
-            "quote": 'My favorite thing about CSU-Pueblo is its size. The classes are just the right size to where you know your professors and classmates. The campus itself is small enough that you know a lot of people, but is also large enough that you are always meeting new people.'
+            
+            "url": "malorie-weiss/index.html",
+            "section": 1
+            
+            
         },
         "geometry": {
             "type": "MultiPolygon",
@@ -17511,12 +17486,12 @@ var statesData = {
         "id": "CO50",
         "properties": {
             "name": "Cheyenne",
-            "counselor": "Taylor Jacobsen",
-            "phone": "719-549-2432",
-            "email": "taylor.jacobsen@csupueblo.edu",
-            "section": 4,
-            "imageUrl": 'img/Taylor.jpg',
-            "quote": 'My favorite thing about CSU-Pueblo is our small class sizes and the professors and staff who truly care about the students.  Another thing that I love about CSU-Pueblo is how much school spirit we have not only on campus, but in the community as well.'
+            "counselor": "Anthony Jimenez",
+            
+            "url": "anthony-jimenez/index.html",
+            "section": 4
+            
+            
         },
         "geometry": {
             "type": "Polygon",
@@ -17598,12 +17573,12 @@ var statesData = {
         "id": "CO51",
         "properties": {
             "name": "Conejos",
-            "counselor": "Taylor Jacobsen", 
-            "phone" : "719-549-2432",
-            "email": "taylor.jacobsen@csupueblo.edu",
-            "section": 4,
-            "imageUrl": "img/Taylor.jpg",
-            "quote": 'My favorite thing about CSU-Pueblo is our small class sizes and the professors and staff who truly care about the students.  Another thing that I love about CSU-Pueblo is how much school spirit we have not only on campus, but in the community as well.'
+            "counselor": "Anthony Jimenez", 
+            
+            "url": "anthony-jimenez/index.html",
+            "section": 4
+            
+            
         },
         "geometry": {
             "type": "Polygon",
@@ -17841,11 +17816,11 @@ var statesData = {
         "properties": {
             "name": "Crowley",
             "counselor": "Malorie Weiss", 
-            "phone" : "719-549-2637",
-            "email": "malorie.weiss@csupueblo.edu",
-            "section": 1,
-            "imageUrl": "img/Malorie.jpg",
-            "quote": 'My favorite thing about CSU-Pueblo is its size. The classes are just the right size to where you know your professors and classmates. The campus itself is small enough that you know a lot of people, but is also large enough that you are always meeting new people.'
+            
+            "url": "malorie-weiss/index.html",
+            "section": 1
+            
+            
         },
         "geometry": {
             "type": "Polygon",
@@ -17996,11 +17971,11 @@ var statesData = {
         "properties": {
             "name": "Dolores",
             "counselor": "Ryan Kendall",
-            "phone": "719-549-2644",
-            "email": "ryan.kendall@csupueblo.edu",
-            "section": 3,
-            "imageUrl": "img/Ryan.jpg",
-            "quote": 'My favorite thing about CSU-Pueblo are the faculty and staff. When I was a student here, everyone always had an open door policy to help and assist students. Now as an employee at the University, I get the pleasure to contribute and give back to the students and staff. That open door policy has never changed. Team works makes the dream work!'
+            
+            "url": "ryan-kendall/index.html",
+            "section": 3
+            
+            
         },
         "geometry": {
             "type": "Polygon",
@@ -18276,12 +18251,12 @@ var statesData = {
         "id": "CO54",
         "properties": {
             "name": "Elbert",
-            "counselor": "Taylor Jacobsen",
-            "phone": "719-549-2432",
-            "email": "taylor.jacobsen@csupueblo.edu",
-            "section": 4,
-            "imageUrl": 'img/Taylor.jpg',
-            "quote": 'My favorite thing about CSU-Pueblo is our small class sizes and the professors and staff who truly care about the students.  Another thing that I love about CSU-Pueblo is how much school spirit we have not only on campus, but in the community as well.'
+            "counselor": "Anthony Jimenez",
+            
+            "url": "anthony-jimenez/index.html",
+            "section": 4
+            
+            
 
         },
         "geometry": {
@@ -18398,12 +18373,12 @@ var statesData = {
         "id": "CO55",
         "properties": {
             "name": "El Paso",
-            "counselor": "Taylor Jacobsen",
-            "phone": "719-549-2432",
-            "email": "taylor.jacobsen@csupueblo.edu",
-            "section": 4,
-            "imageUrl": 'img/Taylor.jpg',
-            "quote": 'My favorite thing about CSU-Pueblo is our small class sizes and the professors and staff who truly care about the students.  Another thing that I love about CSU-Pueblo is how much school spirit we have not only on campus, but in the community as well.'
+            "counselor": "Anthony Jimenez",
+            
+            "url": "anthony-jimenez/index.html",
+            "section": 4
+            
+            
         },
         "geometry": {
             "type": "Polygon",
@@ -18556,11 +18531,11 @@ var statesData = {
         "properties": {
             "name": "Fremont",
             "counselor": "Ryan Kendall", 
-            "phone" : "719-549-2644",
-            "email": "ryan.kendall@csupueblo.edu",
-            "section": 3,
-            "imageUrl": "img/Ryan.jpg",
-            "quote": 'My favorite thing about CSU-Pueblo are the faculty and staff. When I was a student here, everyone always had an open door policy to help and assist students. Now as an employee at the University, I get the pleasure to contribute and give back to the students and staff. That open door policy has never changed. Team works makes the dream work!'
+            
+            "url": "ryan-kendall/index.html",
+            "section": 3
+            
+            
         },
         "geometry": {
             "type": "Polygon",
@@ -18823,11 +18798,11 @@ var statesData = {
         "properties": {
             "name": "Garfield",
             "counselor": "Ryan Kendall",
-            "phone": "719-549-2644",
-            "email": "ryan.kendall@csupueblo.edu",
-            "section": 3,
-            "imageUrl": "img/Ryan.jpg",
-            "quote": 'My favorite thing about CSU-Pueblo are the faculty and staff. When I was a student here, everyone always had an open door policy to help and assist students. Now as an employee at the University, I get the pleasure to contribute and give back to the students and staff. That open door policy has never changed. Team works makes the dream work!'
+            
+            "url": "ryan-kendall/index.html",
+            "section": 3
+            
+            
         },
         "geometry": {
             "type": "Polygon",
@@ -18957,11 +18932,11 @@ var statesData = {
         "properties": {
             "name": "Gilpin",
             "counselor": "Michael Hellman",
-            "phone" : "719-549-2093",
-            "email": "michael.hellman@csupueblo.edu",
-            "section": 5,
-            "imageUrl": 'img/Mike.jpg',
-            "quote": 'My favorite thing about CSU-Pueblo is the new Occhiato Student Center, which reflects CSU-Pueblo\'s continued commitment to improving the quality of education for its students.  I like to see concerted efforts by our administration to help future students, as it makes me feel supported when I go out on the road to speak with them.'        },
+            
+             "url": "michael-hellman/index.html",
+            "section": 5
+           
+                    },
         "geometry": {
             "type": "Polygon",
             "coordinates": [
@@ -19156,11 +19131,11 @@ var statesData = {
         "properties": {
             "name": "Sedgwick",
             "counselor": "Michael Hellman",
-            "phone" : "719-549-2093",
-            "email": "michael.hellman@csupueblo.edu",
-            "section": 5,
-            "imageUrl": 'img/Mike.jpg',
-            "quote": 'My favorite thing about CSU-Pueblo is the new Occhiato Student Center, which reflects CSU-Pueblo\'s continued commitment to improving the quality of education for its students.  I like to see concerted efforts by our administration to help future students, as it makes me feel supported when I go out on the road to speak with them.'        },
+            
+             "url": "michael-hellman/index.html",
+            "section": 5
+           
+                    },
         "geometry": {
             "type": "Polygon",
             "coordinates": [
@@ -19230,12 +19205,12 @@ var statesData = {
         "id": "CO60",
         "properties": {
             "name": "Teller",
-            "counselor": "Taylor Jacobsen",
-            "phone": "719-549-2432",
-            "email": "taylor.jacobsen@csupueblo.edu",
-            "section": 4,
-            "imageUrl": 'img/Taylor.jpg',
-            "quote": 'My favorite thing about CSU-Pueblo is our small class sizes and the professors and staff who truly care about the students.  Another thing that I love about CSU-Pueblo is how much school spirit we have not only on campus, but in the community as well.'
+            "counselor": "Anthony Jimenez",
+            
+            "url": "anthony-jimenez/index.html",
+            "section": 4
+            
+            
         },
         "geometry": {
             "type": "Polygon",
@@ -19343,12 +19318,12 @@ var statesData = {
         "id": "CO61",
         "properties": {
             "name": "Washington",
-            "counselor": "Taylor Jacobsen",
-            "phone": "719-549-2432",
-            "email": "taylor.jacobsen@csupueblo.edu",
-            "section": 4,
-            "imageUrl": 'img/Taylor.jpg',
-            "quote": 'My favorite thing about CSU-Pueblo is our small class sizes and the professors and staff who truly care about the students.  Another thing that I love about CSU-Pueblo is how much school spirit we have not only on campus, but in the community as well.'
+            "counselor": "Anthony Jimenez",
+            
+            "url": "anthony-jimenez/index.html",
+            "section": 4
+            
+            
         },
         "geometry": {
             "type": "Polygon",
@@ -19437,11 +19412,11 @@ var statesData = {
         "properties": {
             "name": "Weld",
             "counselor": "Malorie Weiss",
-            "phone" : "719-549-2637",
-            "email": "malorie.weiss@csupueblo.edu",
-            "section": 1,
-            "imageUrl": 'img/Malorie.jpg',
-            "quote": 'My favorite thing about CSU-Pueblo is its size. The classes are just the right size to where you know your professors and classmates. The campus itself is small enough that you know a lot of people, but is also large enough that you are always meeting new people.'
+            
+            "url": "malorie-weiss/index.html",
+            "section": 1
+            
+            
         },
         "geometry": {
             "type": "MultiPolygon",
@@ -19718,11 +19693,11 @@ var statesData = {
         "properties": {
             "name": "Boulder",
             "counselor": "Malorie Weiss",
-            "phone" : "719-549-2637",
-            "email": "malorie.weiss@csupueblo.edu",
-            "section": 1,
-            "imageUrl": 'img/Malorie.jpg',
-            "quote": 'My favorite thing about CSU-Pueblo is its size. The classes are just the right size to where you know your professors and classmates. The campus itself is small enough that you know a lot of people, but is also large enough that you are always meeting new people.'
+            
+            "url": "malorie-weiss/index.html",
+            "section": 1
+            
+            
         },
         "geometry": {
             "type": "MultiPolygon",
@@ -20111,12 +20086,12 @@ var statesData = {
         "id": "CO64",
         "properties": {
             "name": "Yuma",
-            "counselor": "Taylor Jacobsen",
-            "phone": "719-549-2432",
-            "email": "taylor.jacobsen@csupueblo.edu",
-            "section": 4,
-            "imageUrl": 'img/Taylor.jpg',
-            "quote": 'My favorite thing about CSU-Pueblo is our small class sizes and the professors and staff who truly care about the students.  Another thing that I love about CSU-Pueblo is how much school spirit we have not only on campus, but in the community as well.'
+            "counselor": "Anthony Jimenez",
+            
+            "url": "anthony-jimenez/index.html",
+            "section": 4
+            
+            
         },
         "geometry": {
             "type": "Polygon",
