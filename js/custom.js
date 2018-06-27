@@ -72,7 +72,7 @@ $(document).ready(function() {
             }
 
             //var latlng = L.latLng(layer.feature.properties.center);
-            var latlng = L.latLng([36.578, -102.1866]);
+            var latlng = L.latLng([36.578, -102.16]);
             
                     var popup = L.popup()
                     .setLatLng(latlng)
@@ -113,6 +113,7 @@ $(document).ready(function() {
             // function called when pointer hovers on a state(layer)
             mouseover: highlightFeature,
             // function called when pointer leaves a state(layer)
+            // checks if the county is Baca and turns off the auto close feature
             mouseout: ((layer.feature.properties.name != "Baca") ? resetHighlight : resetHighlightOther),
             // function called when pointer clicks a state(layer)
             click: linkToFeature
