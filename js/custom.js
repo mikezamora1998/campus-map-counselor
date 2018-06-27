@@ -87,6 +87,14 @@ $(document).ready(function() {
             if (!L.Browser.ie && !L.Browser.opera) {
                 layer.bringToFront();
             }
+
+            //var latlng = L.latLng(layer.feature.properties.center);
+            var latlng = L.latLng([36.7147,-102.5189]);
+            
+                    var popup = L.popup()
+                    .setLatLng(latlng)
+                    .setContent('<span><em><strong>' + layer.feature.properties.name + '</strong></em></span>')
+                    .openOn(map);
         }
     }
 
