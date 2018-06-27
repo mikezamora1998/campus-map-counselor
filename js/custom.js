@@ -88,6 +88,11 @@ $(document).ready(function() {
         map.closePopup();
     }
 
+    // Reset highlight for county Baca
+    function resetHighlightOther(e) {
+        geojson.resetStyle(e.target);
+    }
+
 
     // Highlight and zoom to state
     function linkToFeature(e) {
@@ -108,7 +113,7 @@ $(document).ready(function() {
             // function called when pointer hovers on a state(layer)
             mouseover: highlightFeature,
             // function called when pointer leaves a state(layer)
-            mouseout: resetHighlight,
+            mouseout: ((layer.feature.properties.name != "Baca") ? resetHighlight : resetHighlightOther),
             // function called when pointer clicks a state(layer)
             click: linkToFeature
         });
