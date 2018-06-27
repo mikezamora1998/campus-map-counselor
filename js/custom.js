@@ -32,23 +32,7 @@ $(document).ready(function() {
     // Declaration of global variables for functions below
     var geojson;
 
-
-    // Show counselor info when state or county is clicked
-    function infoUpdate(props) {
-        // Change html elements here for styling
-        document.getElementById('info').innerHTML = (props ? '<div class=\'row\'><div class=\'col-xs-12 col-sm-6 col-md-6 col-lg-6\'><div class=\'counselorText\'>' +
-        '<h2><em><strong>' + props.name + '</em></strong></h2><h3><i class="fa fa-user" aria-hidden="true"></i> ' + props.counselor +
-        '<br></h3><p><i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:' + props.email + '">' + props.email + '</a><br></p><p><i class="fa fa-phone-square" aria-hidden="true"></i> <a href="tel:1-' + props.phone + '">' + props.phone +
-        '</a></p><p>' + props.quote + '</p></div></div><div class=\'col-xs-12 col-sm-6 col-md-6 col-lg-6\'><img class=\'counselorImg\' src=' + props.imageUrl +
-        ' alt="' + props.counselor + '"></div></div><br><div class=\'returnBtn\'><button class=\'btn btn-lg btn-primary center-block\' onclick=\'returnToMap()\'>Return to Map</button></div>':
-        'Click on a State or Colorado county to see who your counselor is');
-        $('html,body').animate({
-            scrollTop: $("#info").offset().top
-        });
-    };
-
-
-    // Color states/counties differently if needed (based on property called "section" in statesData)
+     // Color states/counties differently if needed (based on property called "section" in statesData)
     function getColor(sec) {
         return sec == 1 ? '#00396a' :
         sec == 2  ? '#000000' :
@@ -93,7 +77,7 @@ $(document).ready(function() {
             
                     var popup = L.popup()
                     .setLatLng(latlng)
-                    .setContent('<span><em><strong>' + layer.feature.properties.name + '</strong></em></span>')
+                    .setContent('<span><strong>' + layer.feature.properties.name + '</strong><br/>'+ layer.feature.properties.counselor +'</span>')
                     .openOn(map);
         }
     }
@@ -115,7 +99,6 @@ $(document).ready(function() {
             //opens a window in a new tab
             window.open("https://www.csupueblo.edu/profile/" + layer.feature.properties.url);
         }
-        //infoUpdate(layer.feature.properties);
     }
 
 
