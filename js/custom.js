@@ -9,7 +9,6 @@ $(document).ready(function() {
     // Layers
     var light = L.tileLayer(mbUrl, {id: 'mapbox.light', attribution: mbAttr});
 
-
     // Map initialization
     var map = L.map('mainMap', {
         center: [37.2, -105.5],
@@ -73,7 +72,7 @@ $(document).ready(function() {
             }
 
             //var latlng = L.latLng(layer.feature.properties.center);
-            var latlng = L.latLng([36.7147,-102.5189]);
+            var latlng = L.latLng([36.578, -102.1866]);
             
                     var popup = L.popup()
                     .setLatLng(latlng)
@@ -86,6 +85,7 @@ $(document).ready(function() {
     // Reset highlight
     function resetHighlight(e) {
         geojson.resetStyle(e.target);
+        map.closePopup();
     }
 
 
