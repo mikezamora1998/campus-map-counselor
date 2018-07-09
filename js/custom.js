@@ -36,7 +36,7 @@ $(document).ready(function() {
         // set the zoom level to 10
         //map.setZoom(6);
         map.setView([34.5, -105.5], 5.8)
-        latlng = L.latLng([35.5, -105.5]);
+        latlng = L.latLng([35.4, -105.5]);
     }else{
         latlng = L.latLng([36.578, -102.16]);
     }
@@ -51,7 +51,7 @@ $(document).ready(function() {
             // set the zoom level to 10
             //map.setZoom(6);
             map.setView([34.5, -105.5], 5.8);
-            latlng = L.latLng([35.5, -105.5]);
+            latlng = L.latLng([35.4, -105.5]);
         }  else {
             // set the zoom level to 8
             //map.setZoom(6.5);
