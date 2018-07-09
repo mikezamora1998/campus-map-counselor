@@ -29,12 +29,16 @@ $(document).ready(function() {
 	map.removeControl(map.fullscreenControl);
 
     var width = document.documentElement.clientWidth;
+    var latlng;
     // tablets are between 768 and 922 pixels wide
     // phones are less than 768 pixels wide
-    if (width < 550) {
+    if (width < 520) {
         // set the zoom level to 10
         //map.setZoom(6);
-        map.setView([35.2, -105.5], 6)
+        map.setView([34.7, -105.5], 5.9)
+        latlng = L.latLng([35.5, -105.5]);
+    }else{
+        latlng = L.latLng([36.578, -102.16]);
     }
 
     // listen for screen resize events
@@ -43,14 +47,16 @@ $(document).ready(function() {
         var width = document.documentElement.clientWidth;
         // tablets are between 768 and 922 pixels wide
         // phones are less than 768 pixels wide
-        if (width < 550) {
+        if (width < 520) {
             // set the zoom level to 10
             //map.setZoom(6);
-            map.setView([35.2, -105.5], 6)
+            map.setView([34.7, -105.5], 5.9);
+            latlng = L.latLng([35.5, -105.5]);
         }  else {
             // set the zoom level to 8
             //map.setZoom(6.5);
-            map.setView([37.2, -105.5], 6.5)
+            map.setView([37.2, -105.5], 6.5);
+            latlng = L.latLng([36.578, -102.16]);
         }
     }); 
 
@@ -98,7 +104,6 @@ $(document).ready(function() {
             }
 
             //var latlng = L.latLng(layer.feature.properties.center);
-            var latlng = L.latLng([36.578, -102.16]);
             
                     var popup = L.popup()
                     .setLatLng(latlng)
