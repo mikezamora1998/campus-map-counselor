@@ -31,7 +31,7 @@ $(document).ready(function() {
     var width = document.documentElement.clientWidth;
     // tablets are between 768 and 922 pixels wide
     // phones are less than 768 pixels wide
-    if (width < 576) {
+    if (width < 550) {
         // set the zoom level to 10
         //map.setZoom(6);
         map.setView([35.2, -105.5], 6)
