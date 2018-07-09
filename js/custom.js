@@ -28,6 +28,31 @@ $(document).ready(function() {
 	map.removeControl(map.zoomControl);
 	map.removeControl(map.fullscreenControl);
 
+    var width = document.documentElement.clientWidth;
+    // tablets are between 768 and 922 pixels wide
+    // phones are less than 768 pixels wide
+    if (width < 768) {
+        // set the zoom level to 10
+        //map.setZoom(6);
+        map.setView([35.2, -105.5], 6)
+    }
+
+    // listen for screen resize events
+    window.addEventListener('resize', function(event){
+        // get the width of the screen after the resize event
+        var width = document.documentElement.clientWidth;
+        // tablets are between 768 and 922 pixels wide
+        // phones are less than 768 pixels wide
+        if (width < 768) {
+            // set the zoom level to 10
+            //map.setZoom(6);
+            map.setView([35.2, -105.5], 6)
+        }  else {
+            // set the zoom level to 8
+            //map.setZoom(6.5);
+            map.setView([37.2, -105.5], 6.5)
+        }
+    }); 
 
     // Declaration of global variables for functions below
     var geojson;
