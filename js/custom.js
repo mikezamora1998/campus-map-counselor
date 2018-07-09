@@ -15,7 +15,8 @@ $(document).ready(function() {
         zoom: 6.5,
         maxZoom: 9,
         fullscreenControl: true,
-        layers: [light]
+        layers: [light],
+        tap: false
     });
 
     map.dragging.disable();
