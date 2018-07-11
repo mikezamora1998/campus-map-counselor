@@ -23,12 +23,14 @@ The **index.html** will be filled in using the javascript **custom.js**.
 
 The **custom.js** will be where most if the changes are made for updates.
 ```javascript
-var popup = L.popup()
+function highlightFeature(e) {
+    var popup = L.popup()
                     .setLatLng(latlng)
                     .setContent('<span><strong>' + 
                                  layer.feature.properties.name + '</strong><br/>' + 
                                  layer.feature.properties.counselor + '</span>')  
                     .openOn(map);
+}
 ```
 *This code snippet populates the the text in the information popup*
 
@@ -45,5 +47,5 @@ The ```layer.feature.properties.name``` and ```layer.feature.properties.counselo
 Each county/state will have these values. These values are used to display the 
 - **name** - of the county/state
 - **counselor** - that operates the county/state
-- **url** - the url the county/state will link to
+- **url** - the url the county/state will link to **custom.js** method```function linkToFeature(e) {}```
 - **section** - the section will determine the color in the **custom.js** method```function getColor(sec) {}```
