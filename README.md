@@ -12,7 +12,7 @@ The following was developed using:
 https://mikezamora1998.github.io/campus-map-counselor/
 
 
-# Usage/Updating
+## Usage/Updating
 
 The **index.html** will be filled in using the javascript **custom.js**. 
 ```html
