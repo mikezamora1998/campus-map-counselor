@@ -2,8 +2,9 @@
 
 The following was developed using:
 - Bootstrap
-- jQuery
+- javaScript
 - Leaftet
+- Html/css
 
 * See it in action here
 [https://www.csupueblo.edu/admissions/find-your-counselor.html](https://www.csupueblo.edu/admissions/find-your-counselor.html)
