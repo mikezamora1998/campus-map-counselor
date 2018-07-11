@@ -33,11 +33,14 @@ $(document).ready(function() {
     // tablets are between 768 and 922 pixels wide
     // phones are less than 768 pixels wide
     if (width < 520) {
-        // set the zoom level to 10
-        //map.setZoom(6);
+        // set the position and zoom of the map
         map.setView([34.5, -105.5], 5.8)
+        //set the position of the info popup
         latlng = L.latLng([35.4, -105.5]);
     }else{
+        // set the position and zoom of the map
+        map.setView([37.2, -105.5], 6.5);
+        //set the position of the info popup
         latlng = L.latLng([36.578, -102.16]);
     }
 
@@ -48,14 +51,14 @@ $(document).ready(function() {
         // tablets are between 768 and 922 pixels wide
         // phones are less than 768 pixels wide
         if (width < 520) {
-            // set the zoom level to 10
-            //map.setZoom(6);
+            // set the position and zoom of the map
             map.setView([34.5, -105.5], 5.8);
+            //set the position of the info popup
             latlng = L.latLng([35.4, -105.5]);
         }  else {
-            // set the zoom level to 8
-            //map.setZoom(6.5);
+            // set the position and zoom of the map
             map.setView([37.2, -105.5], 6.5);
+            //set the position of the info popup
             latlng = L.latLng([36.578, -102.16]);
         }
     }); 
