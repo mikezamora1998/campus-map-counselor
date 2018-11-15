@@ -11,14 +11,14 @@ $(document).ready(function() {
 
     // Map initialization
     var map = L.map('mainMap', {
-        center: [37.2, -105.5],
+        center: [38.85, -105.5],
         zoom: 6.5,
         maxZoom: 9,
         fullscreenControl: true,
         layers: [light],
         tap: false
     });
-
+    
     map.dragging.disable();
     map.touchZoom.disable();
 	map.doubleClickZoom.disable();
@@ -34,14 +34,16 @@ $(document).ready(function() {
     // phones are less than 768 pixels wide
     if (width < 520) {
         // set the position and zoom of the map
-        map.setView([34.5, -105.5], 5.8)
+        map.setView([37.5, -105.5], 5.8)
         //set the position of the info popup
         latlng = L.latLng([35.4, -105.5]);
+        $("#mainMap").height("310px");
     }else{
         // set the position and zoom of the map
-        map.setView([37.2, -105.5], 6.5);
+        map.setView([38.85, -105.5], 6.5);
         //set the position of the info popup
         latlng = L.latLng([36.578, -102.16]);
+        $("#mainMap").height("400px");
     }
 
     // listen for screen resize events
@@ -52,14 +54,16 @@ $(document).ready(function() {
         // phones are less than 768 pixels wide
         if (width < 520) {
             // set the position and zoom of the map
-            map.setView([34.5, -105.5], 5.8);
+            map.setView([37.5, -105.5], 5.8);
             //set the position of the info popup
             latlng = L.latLng([35.4, -105.5]);
+            $("#mainMap").height("310px");
         }  else {
             // set the position and zoom of the map
-            map.setView([37.2, -105.5], 6.5);
+            map.setView([38.85, -105.5], 6.5);
             //set the position of the info popup
             latlng = L.latLng([36.578, -102.16]);
+            $("#mainMap").height("400px");
         }
     }); 
 
